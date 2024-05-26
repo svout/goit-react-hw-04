@@ -9,7 +9,7 @@ const ImageGallery = ({ images, modalIsOpen, openModal, closeModal }) => {
         flexWrap: "wrap",
         listStyle: "none",
         gap: "15px",
-        paddingTop: "100px",
+        paddingTop: "75px",
       }}
     >
       {images.map((image) => (
